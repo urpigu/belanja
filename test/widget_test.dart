@@ -1,30 +1,31 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
+import 'package:belanja/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:belanja/main.dart';
-
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('Grid tampil dan navigasi ke halaman detail membawa arguments', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Halaman awal.
+    expect(find.text('Belanja'), findsOneWidget);
+    expect(find.byType(GridView), findsOneWidget);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    // Pastikan salah satu item muncul.
+    const firstItemName = 'Kopi Arabica';
+    expect(find.text(firstItemName), findsOneWidget);
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Ketuk item dan pastikan berpindah halaman.
+    await tester.tap(find.text(firstItemName));
+    await tester.pumpAndSettle();
+
+    // Di halaman detail, nama item tetap terlihat dan ada informasi harga.
+    expect(find.text(firstItemName), findsOneWidget);
+    expect(find.textContaining('Harga'), findsOneWidget);
+
+    // Footer nama & NIM ada.
+    expect(find.textContaining('A. A. Ngurah Sadhu Gunawan'), findsOneWidget);
+    expect(find.textContaining('2341760168'), findsOneWidget);
   });
 }
