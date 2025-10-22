@@ -83,7 +83,7 @@ Struktur di atas dipilih agar **tanggung jawab file jelas**: model pada `models/
 
 - ![main.dart (Terbaru — go_router)](assets/main.dart-(Terbaru---go_router).png)
 
-- ![main.dart (Terbaru — go_router, varian 2)](assets/main.dart-(Terbaru---go_router)1.png)
+- ![main.dart (Terbaru — go_router, varian 2)](assets/main.dart-(Terbaru---go_router).png)
 
 - ![item_pages.dart (Terbaru — go_router)](assets/item_pages.dart-(Terbaru---go_router).png)
 
