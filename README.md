@@ -59,35 +59,35 @@ Struktur di atas dipilih agar **tanggung jawab file jelas**: model pada `models/
 
 ### A. Kode & Tampilan Awal (sebelum modifikasi)
 
-- ![main.dart (Pertama)](assets/images/main.dart-(Pertama).png)
+- ![main.dart (Pertama)](assets/main.dart-(Pertama).png)
 
-- ![items_page.dart (Pertama)](assets/images/items_page.dart-(Pertama).png)
+- ![items_page.dart (Pertama)](assets/items_page.dart-(Pertama).png)
 
-- ![item_page.dart (Pertama)](assets/images/item_page.dart-(Pertama).png)
+- ![item_page.dart (Pertama)](assets/item_page.dart-(Pertama).png)
 
 ### B. Hasil Setelah Praktikum 2 (Navigator + GridView + Hero + Footer)
 
-- ![item.dart (Tugas Praktikum 2)](assets/images/item.dart-(Tugas-Praktikum-2).png)
+- ![item.dart (Tugas Praktikum 2)](assets/item.dart-(Tugas-Praktikum-2).png)
 
-- ![items_page.dart (Tugas Praktikum 2)](assets/images/items_page.dart-(Tugas-Praktikum-2).png)
+- ![items_page.dart (Tugas Praktikum 2)](assets/items_page.dart-(Tugas-Praktikum-2).png)
 
-- ![detail_Page.dart (Tugas Praktikum 2)](assets/images/detail_Page.dart-(Tugas-Praktikum-2).png)
+- ![detail_Page.dart (Tugas Praktikum 2)](assets/detail_Page.dart-(Tugas-Praktikum-2).png)
 
-- ![Hasil 1 (Tugas Praktikum 2)](assets/images/hasil-1-(Tugas-Praktikum-2).png)
+- ![Hasil 1 (Tugas Praktikum 2)](assets/hasil-1-(Tugas-Praktikum-2).png)
 
-- ![Hasil 2 (Tugas Praktikum 2)](assets/images/hasil-2-(Tugas-Praktikum-2).png)
+- ![Hasil 2 (Tugas Praktikum 2)](assets/hasil-2-(Tugas-Praktikum-2).png)
 
 ### C. Migrasi ke `go_router` (versi terbaru)
 
-- ![pubspec.yaml (Terbaru — go_router)](assets/images/pubspec.yaml-(Terbaru---go_router).png)
+- ![pubspec.yaml (Terbaru — go_router)](assets/pubspec.yaml-(Terbaru---go_router).png)
 
-- ![main.dart (Terbaru — go_router)](assets/images/main.dart-(Terbaru---go_router).png)
+- ![main.dart (Terbaru — go_router)](assets/main.dart-(Terbaru---go_router).png)
 
-- ![main.dart (Terbaru — go_router, varian 2)](assets/images/main.dart-(Terbaru---go_router)1.png)
+- ![main.dart (Terbaru — go_router, varian 2)](assets/main.dart-(Terbaru---go_router)1.png)
 
-- ![item_pages.dart (Terbaru — go_router)](assets/images/item_pages.dart-(Terbaru---go_router).png)
+- ![item_pages.dart (Terbaru — go_router)](assets/item_pages.dart-(Terbaru---go_router).png)
 
-- ![detail_pages.dart (Terbaru — go_router)](assets/images/detail_pages.dart-(Terbaru---go_router).png)
+- ![detail_pages.dart (Terbaru — go_router)](assets/detail_pages.dart-(Terbaru---go_router).png)
 
 > Penamaan file menggunakan tanda kurung `()` dan tanda hubung `-` seperti pada tangkapan layar. Jika pratinjau Markdown Anda tidak menampilkan gambar, pastikan path relatif dan nama file **persis sama** dengan yang ada di folder `assets/images/`.
 
